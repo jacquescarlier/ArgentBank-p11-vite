@@ -1,0 +1,74 @@
+h2 {
+  font-size: 2em; 
+}
+.userName {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5em;
+  margin-top: 0.5em;
+}
+.userNameForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.userNameInput {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+}
+#userName,
+#firstName,
+#lastName {
+  width: 130px;
+  height: 1.5em;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+#firstName,
+#lastName {
+  color: #b0adad;
+  background-color: #dddada;
+}
+#userName {
+  color: #333;
+}
+.labelFormSignin {
+  width: 100px;
+  height: 1.5em;
+  color: #fff;
+  font-size: 1rem;
+  margin-right: 0.5em;
+  line-height: 3em;
+}
+.userNameButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+.editUserNameButton {
+  background-color: #00bc77;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 10px 40px;
+  border-color: #00bc77;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+}
+.editUserNameButton:hover {
+  background-color: #008e55;
+}
+.editButton {
+  margin-top: 0;
+}
+

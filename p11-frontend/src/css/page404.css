@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.page404 {
+  margin: 10vh 25vw 10vh;
+  background-image: url("../assets/img/bank-tree.webp");
+  background-position: 0 -75px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+}
+.page404Content h2 {
+  color: red;
+  font-weight: 900;
+  font-size: 32px;
+}
+.p404 {
+  color: #145a32;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.errorPage404 {
+  color: hsl(146, 37%, 44%);
+  font-size: 22px;
+  font-weight: 900;
+}
+@media (max-width: 1900px) {
+  .page404 {
+    margin: 10vh 20vw 10vh;
+  }
+}
+@media (max-width: 1240px) {
+  .page404 {
+    margin: 10vh 10vw 10vh;
+  }
+}
+@media (max-width: 920px) {
+  .page404 {
+    margin: 10vh 5vw 10vh;
+  }
+}
